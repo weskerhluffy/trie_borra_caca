@@ -4,7 +4,7 @@ Created on 22/05/2018
 @author: ernesto
 '''
 # XXX: https://practice.geeksforgeeks.org/problems/trie-delete/1
-# XXX: 
+# XXX: https://coderpad.io/GTXTAQCA
 
 '''
 The story thus far... an engineer was just getting started implementing a trie. They got distracted and never finished. Implement the remove and lookup methods. Make sure the methods conform to the given docstrings. Feel free to change the existing implementation (including tests!) in any way. Use any resources you can think of, including Google/Wikipedia/Stack Overflow etc.
@@ -137,7 +137,6 @@ def test_trie_lookup():
     trie.add('baaaz')
     assert trie.lookup('ba') == ['ba', 'baaaz', 'bar', 'baz']
     assert trie.lookup('baar') == []
-
 
 def test_trie_remove():
     trie = Trie()
